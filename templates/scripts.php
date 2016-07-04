@@ -30,7 +30,7 @@
                 url:   $('#registroForm').attr('action'),  //ejecuta script php
                 data: $('#registroForm').serialize()
             }).done(function (data) {
-                $('#RegistroSuccess').html(data)  //oculta boton y muestra mensaje
+                $('#RegistroSuccess').html(data)  //Muestra mensaje
             });
             request.fail(function(jqHQR, testStatus) {
                 alert("failure");

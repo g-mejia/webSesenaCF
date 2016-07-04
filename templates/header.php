@@ -83,17 +83,17 @@ if (!empty($_REQUEST['error'])) {
                     <a class="active" href="index.php">Inicio</a>
                 </li>
                 <li>
-                    <a href="#">Primer equipo<span class="caret"></span></a>
+                    <a href="plantilla.php">Primer equipo<span class="caret"></span></a>
                     <ul class="dropdown">
-                        <li><a href="#">Plantilla</a>
+                        <li><a href="plantilla.php">Plantilla</a>
                         </li>
-                        <li><a href="#">Entrenamientos</a>
+                        <li><a href="entrenamientos.php">Entrenamientos</a>
                         </li>
-                        <li><a href="#">Calendario</a>
+                        <li><a href="calendario.php">Calendario</a>
                         </li>
-                        <li><a href="#">Resultados</a>
+                        <li><a href="resultados.php">Última jornada</a>
                         </li>
-                        <li><a href="#">Estadísticas</a>
+                        <li><a href="clasificacion.php">Clasificación</a>
                         </li>
                     </ul>
                 </li>
@@ -107,9 +107,9 @@ if (!empty($_REQUEST['error'])) {
                     </ul>
                 </li>
                 <li>
-                    <a href="#">Noticias<span class="caret"></span></a>
+                    <a href="noticias_list.php">Noticias<span class="caret"></span></a>
                     <ul class="dropdown">
-                        <li><a href="#">Noticias 1</a>
+                        <li><a href="noticia.php">Noticias 1</a>
                         </li>
                         <li><a href="#">Noticias 2</a>
                         </li>
@@ -172,17 +172,17 @@ if (!empty($_REQUEST['error'])) {
             <a class="active" href="index.php">Inicio</a>
         </li>
         <li>
-            <a href="#">Primer equipo</a>
+            <a href="plantilla.php">Primer equipo</a>
             <ul class="dropdown">
-                <li><a href="#">Plantilla</a>
+                <li><a href="plantilla.php">Plantilla</a>
                 </li>
-                <li><a href="#">Entrenamientos</a>
+                <li><a href="entrenamientos.php">Entrenamientos</a>
                 </li>
-                <li><a href="#">Calendario</a>
+                <li><a href="calendario.php">Calendario</a>
                 </li>
-                <li><a href="#">Resultados</a>
+                <li><a href="resultados.php">Última jornada</a>
                 </li>
-                <li><a href="#">Estadísticas</a>
+                <li><a href="clasificacion.php">Clasificación</a>
                 </li>
             </ul>
         </li>
@@ -196,9 +196,9 @@ if (!empty($_REQUEST['error'])) {
             </ul>
         </li>
         <li>
-            <a href="#">Noticias</a>
+            <a href="noticias_list.php">Noticias</a>
             <ul class="dropdown">
-                <li><a href="#">Noticias 1</a>
+                <li><a href="noticia.php">Noticias 1</a>
                 </li>
                 <li><a href="#">Noticias 2</a>
                 </li>
